@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins' , sans-serif;
+}
+
+ :root{
+    --bg-color: #1f242d;
+    --second-bg-color: #3d0461;
+    --text-color: #fff;
+    --main-color: rgb(255, 6, 97);
+ }
+ 
+
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+ }
+
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+ section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+ }
+
+span{
+    color: var(--main-color);
+ }
+
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+ }
+
+
+ .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:rgb(145, 71, 215);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+ .menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 98px;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    color:rgb(215, 70, 184)
+}
+.contact h2{
+    margin-bottom: 3rem;
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  background: var(--second-bg-color);
+  border-radius: .8rem;
+  margin: .7rem 0;
+}
+
+.contact form .input-box input {
+  width: 49%;
+}
+
+
+.contact form textarea{
+  resize: none;
+}
+
+.contact form .btn{
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+ }
+
+
+ .btn:hover{
+    box-shadow: none;
+ }
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  background: var(--second-bg-color);
+
+}
+
+.footer-text p{
+  font-size: 1.6rem;
+}
+
+
